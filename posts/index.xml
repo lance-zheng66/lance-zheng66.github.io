@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on lance的学习路程</title>
+    <link>http://example.org/posts/</link>
+    <description>Recent content in Posts on lance的学习路程</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-Hans</language>
+    <lastBuildDate>Wed, 06 May 2020 15:52:01 +0800</lastBuildDate>
+    
+	<atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>第一篇博客</title>
+      <link>http://example.org/posts/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Wed, 06 May 2020 15:52:01 +0800</pubDate>
+      
+      <guid>http://example.org/posts/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</guid>
+      <description>如何使用Hugo搭建博客   第一步去Hugo releases页面下载hugo应用程序
+  进去入Hugo的官网，点击Quick Start快速开始
+  从Step2开始复制代码到终端并运行，直到Step7
+   注意：运行Step4代码会发生错误，提示如下： config-toml-unmarshal-failed-near-line-3-last-key-parsed-bare-keys-cannot-contain-&amp;lsquo;x00&amp;rsquo; 将config-toml中第4行所有的null删除，修改为 theme=&amp;quot;ananke&amp;rdquo;,指定博客主题的类型   编写完博客内容后，将draft的状态改为fasle,即非草稿状态
+  运行Step5 hugo server -D 可预览草稿
+  进入config.toml 可以修改支持的语言格式和博客的标题头和主题。
+  将其推动到Github远程仓库。
+  </description>
+    </item>
+    
+  </channel>
+</rss>
