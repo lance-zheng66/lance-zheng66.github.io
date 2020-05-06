@@ -6,10 +6,19 @@
     <description>Recent content in Posts on lance的学习路程</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans</language>
-    <lastBuildDate>Wed, 06 May 2020 15:52:01 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 06 May 2020 18:56:16 +0800</lastBuildDate>
     
 	<atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>第二篇博客</title>
+      <link>http://example.org/posts/%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Wed, 06 May 2020 18:56:16 +0800</pubDate>
+      
+      <guid>http://example.org/posts/%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/</guid>
+      <description>大家好，希望大家身体健康！ </description>
+    </item>
     
     <item>
       <title>第一篇博客</title>
