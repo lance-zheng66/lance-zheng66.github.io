@@ -6,10 +6,32 @@
     <description>Recent content in Posts on lance的学习路程</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans</language>
-    <lastBuildDate>Wed, 06 May 2020 18:56:16 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 09 May 2020 18:38:02 +0800</lastBuildDate>
     
 	<atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Java包的管理</title>
+      <link>http://example.org/posts/java%E5%8C%85%E7%9A%84%E7%AE%A1%E7%90%86/</link>
+      <pubDate>Sat, 09 May 2020 18:38:02 +0800</pubDate>
+      
+      <guid>http://example.org/posts/java%E5%8C%85%E7%9A%84%E7%AE%A1%E7%90%86/</guid>
+      <description>Java的包管理与Maven初步  JVM的工作流程非常简单:
+  执行一个类的字节码
+  加入这个过程中碰到了新的类，加载它
+  接着执行字节码
+   到哪里加载类——类路径（Classpath） -classpath -cp
+  类在加载会去classpath中逐个寻找对应的类，碰到的了jar包就会去解压，碰到文件夹就会去文件夹中找
+  类的全限定类名（目录层级）唯一确定了一个类
+  Jar包就是把许多类放在一起的压缩包
+  传递性依赖
+ 你依赖的类还依赖了别的类 后果：假如要运行一个程序，不能只传一个Jar包，需要要所有引用的类放到 classpath    classpath hell(依赖地狱)
+ 全限定类名是类的唯一标识 当多个同名类出现在Classpath中,要引用哪个类？  哪个类排在前面引用谁   但是多个同名类里面的代码有可能不一样，会引用错误代码     包管理  要使用一些第3方类，就需要告诉JvM 从哪里找 包管理的本质就告诉JVM如何找到所需的第三方类库 以及成功到解决其中的冲突问题   Maven&amp;ndash;划时代的包管理   约定由于配置
+  maven远远不止是包管理工具
+  Maven的中央仓库
+ 按照一定的约定存储包    Maven的本地仓库</description>
+    </item>
     
     <item>
       <title>第二篇博客</title>

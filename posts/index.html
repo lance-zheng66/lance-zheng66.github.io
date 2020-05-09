@@ -34,7 +34,7 @@
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="http://example.org/posts/" />
-<meta property="og:updated_time" content="2020-05-06T18:56:16+08:00" />
+<meta property="og:updated_time" content="2020-05-09T18:38:02+08:00" />
 <meta itemprop="name" content="Posts">
 <meta itemprop="description" content=""><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Posts"/>
@@ -91,6 +91,34 @@
   <article class="pa3 pa4-ns nested-copy-line-height nested-img">
     <section class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy mid-gray"></section>
     <section class="flex-ns flex-wrap justify-around mt5">
+      
+        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb4 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa4 gray overflow-hidden">
+    <span class="f6 db">Posts</span>
+    <h1 class="f3 near-black">
+      <a href="http://example.org/posts/java%E5%8C%85%E7%9A%84%E7%AE%A1%E7%90%86/" class="link black dim">
+        Java包的管理
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      Java的包管理与Maven初步  JVM的工作流程非常简单:
+  执行一个类的字节码
+  加入这个过程中碰到了新的类，加载它
+  接着执行字节码
+   到哪里加载类——类路径（Classpath） -classpath -cp
+  类在加载会去classpath中逐个寻找对应的类，碰到的了jar包就会去解压，碰到文件夹就会去文件夹中找
+  类的全限定类名（目录层级）唯一确定了一个类
+  Jar包就是把许多类放在一起的压缩包
+  传递性依赖
+ 你依赖的类还依赖了别的类 后果：假如要运行一个程序，不能只传一个Jar包，需要要所有引用的类放到 classpath    classpath hell(依赖地狱)
+ 全限定类名是类的唯一标识 当多个同名类出现在Classpath中,要引用哪个类？  哪个类排在前面引用谁   但是多个同名类里面的代码有可能不一样，会引用错误代码     包管理  要使用一些第3方类，就需要告诉JvM 从哪里找 包管理的本质就告诉JVM如何找到所需的第三方类库 以及成功到解决其中的冲突问题   Maven&ndash;划时代的包管理   约定由于配置
+  maven远远不止是包管理工具
+  Maven的中央仓库
+ 按照一定的约定存储包    Maven的本地仓库
+    </div>
+  </div>
+</div>
+</div>
       
         <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb4 bg-white nested-copy-line-height">
   <div class="bg-white mb3 pa4 gray overflow-hidden">
