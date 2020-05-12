@@ -6,10 +6,19 @@
     <description>Recent content on lance的学习路程</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans</language>
-    <lastBuildDate>Sat, 09 May 2020 18:38:02 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 12 May 2020 20:44:59 +0800</lastBuildDate>
     
 	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Collection体系</title>
+      <link>http://example.org/posts/collection%E4%BD%93%E7%B3%BB/</link>
+      <pubDate>Tue, 12 May 2020 20:44:59 +0800</pubDate>
+      
+      <guid>http://example.org/posts/collection%E4%BD%93%E7%B3%BB/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Java包的管理</title>
