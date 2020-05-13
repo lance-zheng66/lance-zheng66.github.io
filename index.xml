@@ -2,21 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>lance的学习路程</title>
-    <link>http://example.org/</link>
+    <link>https://lance-zheng66.github.io/</link>
     <description>Recent content on lance的学习路程</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans</language>
-    <lastBuildDate>Tue, 12 May 2020 20:44:59 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 13 May 2020 20:10:21 +0800</lastBuildDate>
     
-	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://lance-zheng66.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>My First Post</title>
+      <link>https://lance-zheng66.github.io/posts/my-first-post/</link>
+      <pubDate>Wed, 13 May 2020 20:10:21 +0800</pubDate>
+      
+      <guid>https://lance-zheng66.github.io/posts/my-first-post/</guid>
+      <description>实验</description>
+    </item>
+    
+    <item>
       <title>Collection体系</title>
-      <link>http://example.org/posts/collection%E4%BD%93%E7%B3%BB/</link>
+      <link>https://lance-zheng66.github.io/posts/collection%E4%BD%93%E7%B3%BB/</link>
       <pubDate>Tue, 12 May 2020 20:44:59 +0800</pubDate>
       
-      <guid>http://example.org/posts/collection%E4%BD%93%E7%B3%BB/</guid>
+      <guid>https://lance-zheng66.github.io/posts/collection%E4%BD%93%E7%B3%BB/</guid>
       <description>Collection 体系原理 Collection的基本概念   Collection是整个collec体系的根接口，Collection 表示一组对象，这些对象也称为 collection 的元素。一些 collection 允许有重复的元素，而另一些则不允许。一些 collection 是有序的，而另一些则是无序的。
   JDK 不提供此接口的任何直接实现：它提供更具体的子接口（如 Set 和 List）实现。此接口通常用来传递 collection，并在需要最大普遍性的地方操作这些 collection。 包 (bag)* 或*多集合 (multiset)*（可能包含重复元素的无序 collection）应该直接实现此接口。
   Collection的常用方法
@@ -25,10 +34,10 @@
     
     <item>
       <title>Java包的管理</title>
-      <link>http://example.org/posts/java%E5%8C%85%E7%9A%84%E7%AE%A1%E7%90%86/</link>
+      <link>https://lance-zheng66.github.io/posts/java%E5%8C%85%E7%9A%84%E7%AE%A1%E7%90%86/</link>
       <pubDate>Sat, 09 May 2020 18:38:02 +0800</pubDate>
       
-      <guid>http://example.org/posts/java%E5%8C%85%E7%9A%84%E7%AE%A1%E7%90%86/</guid>
+      <guid>https://lance-zheng66.github.io/posts/java%E5%8C%85%E7%9A%84%E7%AE%A1%E7%90%86/</guid>
       <description>Java的包管理与Maven初步  JVM的工作流程非常简单:
   执行一个类的字节码
   加入这个过程中碰到了新的类，加载它
@@ -47,19 +56,19 @@
     
     <item>
       <title>第二篇博客</title>
-      <link>http://example.org/posts/%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/</link>
+      <link>https://lance-zheng66.github.io/posts/%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/</link>
       <pubDate>Wed, 06 May 2020 18:56:16 +0800</pubDate>
       
-      <guid>http://example.org/posts/%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/</guid>
+      <guid>https://lance-zheng66.github.io/posts/%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/</guid>
       <description>大家好，希望大家身体健康！ </description>
     </item>
     
     <item>
       <title>第一篇博客</title>
-      <link>http://example.org/posts/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</link>
+      <link>https://lance-zheng66.github.io/posts/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</link>
       <pubDate>Wed, 06 May 2020 15:52:01 +0800</pubDate>
       
-      <guid>http://example.org/posts/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</guid>
+      <guid>https://lance-zheng66.github.io/posts/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</guid>
       <description>如何使用Hugo搭建博客   第一步去Hugo releases页面下载hugo应用程序
   进去入Hugo的官网，点击Quick Start快速开始
   从Step2开始复制代码到终端并运行，直到Step7
